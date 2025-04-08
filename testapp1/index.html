@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初夢チェッカー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>初夢チェッカー</h1>
+        
+        <div class="checkbox-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="fuji" name="dream-item" data-name="富士山">
+                <label for="fuji">富士山</label>
+            </div>
+            
+            <div class="checkbox-item">
+                <input type="checkbox" id="nasu" name="dream-item" data-name="茄子">
+                <label for="nasu">茄子</label>
+            </div>
+            
+            <div class="checkbox-item">
+                <input type="checkbox" id="taka" name="dream-item" data-name="鷹">
+                <label for="taka">鷹</label>
+            </div>
+        </div>
+        
+        <button id="dream-button" aria-label="夢の内容を判定">夢見る</button>
+        
+        <div id="result" aria-live="polite"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

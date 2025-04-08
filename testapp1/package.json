@@ -1,0 +1,14 @@
+{
+  "name": "testapp1",
+  "version": "1.0.0",
+  "description": "初夢チェッカーのテスト",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.51.1"
+  }
+}

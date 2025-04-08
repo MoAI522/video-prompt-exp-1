@@ -1,0 +1,22 @@
+# Node.js 関連
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Playwright 関連
+test-results/
+playwright-report/
+playwright/.cache/
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# デバッグ関連
+debug.log
